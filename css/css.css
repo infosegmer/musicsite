@@ -9,7 +9,13 @@
 }
 .player
 {
-	background: #b6b6b6;
+	background: rgba(165, 107, 107, 0.2);
+	box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+        border-radius: 20px;
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255, 255,255,0.25);
+ 	border-top: 1px solid rgba(255, 255,255,0.5);
+ 	border-left: 1px solid rgba(255, 255,255,0.5);
 	border-radius: 30px;
 	max-width: 380px;
 	width: 100%;
@@ -37,7 +43,13 @@
 	line-height: 28px;
 	color: #000000;
 	text-align: center;
-	background: #5e5e5e;
+	background: rgba(165, 107, 107, 0.2);
+	box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+        border-radius: 20px;
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255, 255,255,0.25);
+ 	border-top: 1px solid rgba(255, 255,255,0.5);
+ 	border-left: 1px solid rgba(255, 255,255,0.5);
 	justify-content: center;
 	height: 3vh;
 	padding: 3.5px;
