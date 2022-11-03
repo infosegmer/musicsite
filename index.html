@@ -30,6 +30,18 @@
                 <div class="btn prev"><img src="./img/prev.svg" alt="btn"></div>
                 <div class="btn play"><img class ="img__src" src="./img/play.svg" alt="btn"></div>
                 <div class="btn next"><img src="./img/next.svg" alt="btn"></div>
+                let audio = document.querySelector('audio');
+
+
+                Array.from(document.querySelectorAll('button'), btn => {
+                  btn.addEventListener('click', (e) => {
+                    const volume = +e.target.innerText/100; // 0.5 => 50%
+                    audio.currentTime = 0;
+                    audio.volume = volume;
+                    audio.play();
+                  });
+                });
+                <button>30</button><button>50</button><button>100</button>
             </div>
             </div>
         </div>
